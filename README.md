@@ -25,4 +25,9 @@
 - core包主要提供了幂等的拦截实现、计数器的创建销毁、基础配置、以及一些支持业务方个性化自定义处理的接口。
 2. idempotent-reids:  基于redis实现的幂等方案
 - redis包主要实现了幂等的存储、默认bean的配置、以及序列化等
-
+三、项目使用
+<dependency>
+            <groupId>org.link.redis</groupId>
+            <artifactId>idempotent-redis</artifactId>
+            <version>1.0-SNAPSHOT</version>
+</dependency>
